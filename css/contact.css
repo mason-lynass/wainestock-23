@@ -1,0 +1,16 @@
+#info-current {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#info-copy {
+    width: 40vw;
+    min-width: 500px;
+}
+
+#map {
+    width: 40vw;
+    min-width: 500px;
+}

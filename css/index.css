@@ -1,0 +1,26 @@
+#main-copy {
+    text-align: center;
+    width: 60vw;
+    margin: 2vw auto;
+}
+
+hr {
+    color: rgb(57, 135, 57);
+    background-color: rgb(13, 88, 13);
+}
+
+#main-poster {
+    width: 80%;
+    margin: 2vh 10%;
+  }
+
+#main-ticket-link {
+    border: 3px solid #7575ba;
+    color:rgb(13, 88, 13);
+    display: block;
+    width: 200px;
+    padding: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    margin: 2vh calc((100vw - 200px) / 2);
+  }

@@ -99,12 +99,15 @@ a {
 
 main {
   padding: 2vw;
-  background-color: rgb(57, 135, 57);
+  /* background-color: rgb(57, 135, 57); */
+  background-color: #bdbdf6;
+  min-height: 70vh;
 }
 
 header,
 footer {
-  background-color: #a3a3f6;
+  /* background-color: #a3a3f6; */
+  background-color: #7575ba;
   color: white;
   padding: 10px 2vw;
 }
@@ -144,10 +147,7 @@ nav li a {
   display: none;
 }
 
-#main-poster {
-  width: 80%;
-  margin: 2vh 10%;
-}
+
 
 .ticket-link {
   background-color: white;
@@ -157,14 +157,7 @@ nav li a {
   border-radius: 10px;
 }
 
-#main-ticket-link {
-  display: block;
-  width: 200px;
-  padding: 10px 0;
-  font-size: 36px;
-  text-align: center;
-  margin: 2vh calc((100vw - 200px) / 2);
-}
+
 
 /* footer {
   

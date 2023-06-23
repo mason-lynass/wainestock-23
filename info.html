@@ -20,9 +20,8 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <meta name="theme-color" content="#fafafa" />
-    
   </head>
 
   <body>
@@ -52,25 +51,37 @@
         </nav>
       </header>
       <main>
-        <div id="main-copy">
-          <h1>You're invited to Wainestock 2023!</h1>
-          <hr />
-          <h4>
-            Wainestock is an independent, all ages, weekend-long music festival showcasing
-            musicians, comedians, and other creatives from Seattle and around
-            the Puget Sound.
-          </h4>
-        </div>
-        <a
-          id="main-ticket-link"
-          class="ticket-link"
-          href="https://www.eventbrite.com/e/wainestock-2023-tickets-648157726207"
-          target="_blank"
-          rel="noopener noreferrer"
-          >TICKETS</a
-        >
-        <img id="main-poster" src="./img/placeholder.png" />
-        
+        <section id="info-current">
+          <div id="info-copy">
+            <h2>
+              Wainestock 2023 is happening August 18-20 at the Volunteer Park
+              Amphitheater!
+            </h2>
+            <h3>
+              Contact Joseph Waine for more information about location, times,
+              and any other details.
+            </h3>
+            <hr>
+            <h3>As an independent festival, we're always open to volunteers or helping hands! If you're interested in volunteering, send us a message at joewaine[at]gmail.com - just mention something about volunteering in the subject line. Thanks!</h3>
+            <a
+            class="ticket-link"
+            href="https://www.eventbrite.com/e/wainestock-2023-tickets-648157726207"
+            target="_blank"
+            rel="noopener noreferrer"
+            >TICKETS</a
+          >
+          </div>
+          <img
+            id="map"
+            src="./img/map.png"
+            alt="a map of the area surrounding Volunteer Park Amphitheater"
+          />
+          
+        </section>
+        <section id="history">
+          <h3>Wainestock History:</h3>
+          <!-- let's put some images of previous Wainestock's here -->
+        </section>
       </main>
       <footer>
         <p>joe.waine[at]gmail.com</p>
@@ -81,6 +92,7 @@
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {
