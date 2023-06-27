@@ -143,11 +143,19 @@ nav li a {
   text-decoration: none;
 }
 
+nav h1 {
+  font-size: 40px;
+}
+
 #menu-button {
   display: none;
 }
 
-
+nav li a:hover {
+  color: black;
+  background-color: #bdbdf6;
+  border-radius: 10px;
+}
 
 .ticket-link {
   background-color: white;
@@ -155,13 +163,20 @@ nav li a {
   padding: 15px;
   font-size: 24px;
   border-radius: 10px;
+  margin-left: 1vw;
+}
+
+.ticket-link:hover {
+  color: white;
+  background-color: #7575ba;
+  border: 2px solid gold;
 }
 
 
 
-/* footer {
-  
-} */
+footer {
+  padding: 10px 20px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -260,17 +275,19 @@ nav li a {
     /* min-height: calc(3vw + 34px); */
   }
 
-  nav h1 {
+  /* nav h1 {
     display: block;
     width: fit-content;
     position: fixed;
     top: 3vw;
     left: 3vw;
     margin: 0;
-}
+} */
 
   nav li {
     display: block;
+    font-size: 24px;
+    margin: 2vh;
   }
 
   nav ul {
@@ -279,14 +296,21 @@ nav li a {
 
   nav ul.is-active {
     display: block;
+    margin-top: 61px;
+  }
+
+  nav h1 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
   }
 
   #menu-button {
     display: block;
     position: absolute;
-    right: 3vw;
-    top: 3vw;
-    height: 34px;
+    right: 20px;
+    top: 20px;
+    height: 41px;
     color: #a3a3f6;
     background-color: white;
     border: 0;
